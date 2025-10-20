@@ -154,7 +154,7 @@ func TestListUnprocessedShipments(t *testing.T) {
 						"products_requiring_gtd": [],
 						"products_requiring_country": []
 					  },
-					  "tariffication": [
+					  "tariffication":
 						{
 						  "current_tariff_rate": 0,
 						  "current_tariff_type": "",
@@ -166,7 +166,6 @@ func TestListUnprocessedShipments(t *testing.T) {
 						  "next_tariff_starts_at": "2023-11-13T08:05:57.657Z",
 						  "next_tariff_charge_currency_code": ""
 						}
-					  ]
 					}
 				  ],
 				  "count": 55
@@ -296,7 +295,7 @@ func TestGetFBSShipmentsList(t *testing.T) {
 						"products_requiring_country": [],
 						"products_requiring_mandatory_mark": []
 					  },
-					  "tariffication": [
+					  "tariffication":
 						{
 						  "current_tariff_rate": 0,
 						  "current_tariff_type": "",
@@ -308,7 +307,6 @@ func TestGetFBSShipmentsList(t *testing.T) {
 						  "next_tariff_starts_at": "2023-11-13T08:05:57.657Z",
 						  "next_tariff_charge_currency_code": ""
 						}
-					  ]
 					}
 				  ],
 				  "has_next": true
@@ -672,7 +670,7 @@ func TestGetShipmentDataByIdentifier(t *testing.T) {
 					"products_requiring_country": []
 				  },
 				  "product_exemplars": null,
-				  "tariffication": [
+				  "tariffication":
 					{
 					  "current_tariff_rate": 0,
 					  "current_tariff_type": "",
@@ -684,7 +682,6 @@ func TestGetShipmentDataByIdentifier(t *testing.T) {
 					  "next_tariff_starts_at": "2023-11-13T08:05:57.657Z",
 					  "next_tariff_charge_currency_code": ""
 					}
-				  ]
 				}
 			}`,
 		},
